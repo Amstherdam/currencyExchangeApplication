@@ -1,0 +1,60 @@
+.abbreviations-div {
+  background-color: rgba(170, 189, 242, 0.6);
+  min-width: 580px;
+  min-height: 280px;
+  width: 32vw;
+  height: 10vh;
+  margin-top: 5vh;
+  border: 1px solid #010101;
+  border-radius: 30px;
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.abbreviations-div::-webkit-scrollbar {
+  display: block;
+  background-color: transparent;
+  border-radius: 80px;
+  width: 10px;
+} /* tamam */
+
+.abbreviations-div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.abbreviations-div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(170, 189, 242, 0.6);
+  border-right: none;
+  border-left: none;
+}
+
+.abbreviations-div::-webkit-scrollbar-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.abbreviations-div::-webkit-scrollbar-track-piece:end {
+  margin-bottom: 10px;
+}
+
+.abbreviations-div::-webkit-scrollbar-track-piece:start {
+  margin-top: 10px;
+}
+
+.fullName-container {
+  margin-left: 60px;
+}
+
+.fullName-div {
+  display: flex;
+  gap: 50px;
+  color: #010101;
+}
+
+.circle{ 
+  padding-right: 20px;
+  transform: translateY(3px);
+  color: #0f0f0f;
+}
